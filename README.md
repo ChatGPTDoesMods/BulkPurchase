@@ -6,4 +6,4 @@ BulkPurchase adds a button to the manager blackboard that adds one of each box t
 ![image](https://github.com/user-attachments/assets/ba9f5527-8a32-4ed0-9ea8-68e2f961003b)
 
 
-Some prices may be slightly off due to rounding issues in the main game. The amounts seem to even out across all items.
+Some prices may be slightly off due to rounding issues in the main game. (Up/down a few cents)
