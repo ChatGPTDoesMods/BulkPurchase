@@ -7,21 +7,50 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "BuyAllButton/1.0.0": {
+      "BuyAllButton/1.1.0": {
         "dependencies": {
           "BepInEx.Analyzers": "1.0.8",
+          "BepInEx.AssemblyPublicizer.MSBuild": "0.4.2",
           "BepInEx.Core": "5.4.21",
           "BepInEx.PluginInfoProps": "2.1.0",
           "UnityEngine.Modules": "2023.1.9",
-          "Assembly-CSharp": "0.0.0.0",
           "Mirror": "0.0.0.0",
-          "UnityEngine.UI": "1.0.0.0"
+          "UnityEngine.UI": "1.0.0.0",
+          "Assembly-CSharp": "0.0.0.0"
         },
         "runtime": {
           "BuyAllButton.dll": {}
         }
       },
       "BepInEx.Analyzers/1.0.8": {},
+      "BepInEx.AssemblyPublicizer.MSBuild/0.4.2": {
+        "runtime": {
+          "lib/netstandard2.1/AsmResolver.DotNet.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          },
+          "lib/netstandard2.1/AsmResolver.PE.File.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          },
+          "lib/netstandard2.1/AsmResolver.PE.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          },
+          "lib/netstandard2.1/AsmResolver.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          },
+          "lib/netstandard2.1/BepInEx.AssemblyPublicizer.MSBuild.dll": {
+            "assemblyVersion": "0.4.2.0",
+            "fileVersion": "0.4.2.0"
+          },
+          "lib/netstandard2.1/BepInEx.AssemblyPublicizer.dll": {
+            "assemblyVersion": "0.4.2.0",
+            "fileVersion": "0.4.2.0"
+          }
+        }
+      },
       "BepInEx.BaseLib/5.4.20": {
         "runtime": {
           "lib/netstandard2.0/BepInEx.dll": {
@@ -355,14 +384,6 @@
         }
       },
       "UnityEngine.Modules/2023.1.9": {},
-      "Assembly-CSharp/0.0.0.0": {
-        "runtime": {
-          "Assembly-CSharp.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "Mirror/0.0.0.0": {
         "runtime": {
           "Mirror.dll": {
@@ -376,6 +397,14 @@
           "UnityEngine.UI.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Assembly-CSharp/0.0.0.0": {
+        "runtime": {
+          "Assembly-CSharp.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -550,7 +579,7 @@
     }
   },
   "libraries": {
-    "BuyAllButton/1.0.0": {
+    "BuyAllButton/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -561,6 +590,13 @@
       "sha512": "sha512-xrfNmunsPhBx+vStTxLonq/aHkRrDH77c9tG/x3m5eejrKe5B0nf7cJPRRt6x330sGI0bLaPTtygdeHUgvI3wQ==",
       "path": "bepinex.analyzers/1.0.8",
       "hashPath": "bepinex.analyzers.1.0.8.nupkg.sha512"
+    },
+    "BepInEx.AssemblyPublicizer.MSBuild/0.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AwGR6zOQxhWPWmcMdmhCaawC2qYdYHttkGmlXxyvhB1EIUAtuILEle8kKSkzElnbFGZjvw6iabpFi+AYUG4IuA==",
+      "path": "bepinex.assemblypublicizer.msbuild/0.4.2",
+      "hashPath": "bepinex.assemblypublicizer.msbuild.0.4.2.nupkg.sha512"
     },
     "BepInEx.BaseLib/5.4.20": {
       "type": "package",
@@ -821,17 +857,17 @@
       "path": "unityengine.modules/2023.1.9",
       "hashPath": "unityengine.modules.2023.1.9.nupkg.sha512"
     },
-    "Assembly-CSharp/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Mirror/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "UnityEngine.UI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Assembly-CSharp/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
