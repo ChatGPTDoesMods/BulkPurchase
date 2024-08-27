@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>BuyAllButton</AssemblyName>
-    <Product>My first plugin</Product>
+    <Product>Adds a button to the product order screen to buy one box of each product unlocked.</Product>
     <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
